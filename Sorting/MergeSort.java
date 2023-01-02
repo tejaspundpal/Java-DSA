@@ -3,17 +3,17 @@ package Java_DSA.Sorting;
 import java.util.Scanner;
 
 public class MergeSort {
-    public static void mergeSort(int[] arr,int l,int h,int n){
+    public static void mergeSort(int[] arr,int l,int h){
         if (l < h)
         {
             int mid = (l + h) / 2;
-            mergeSort(arr, l, mid, n);
-            mergeSort(arr, mid + 1, h, n);
+            mergeSort(arr, l, mid);
+            mergeSort(arr, mid + 1, h);
 
-            merge(arr, l, mid, h, n);
+            merge(arr, l, mid, h);
         }
     }
-    public static void merge(int[] arr, int l, int m, int h, int n) {
+    public static void merge(int[] arr, int l, int m, int h) {
         int n1 = m - l + 1, n2 = h - m;
         int[] a = new int[n1];
         int[] b = new int[n2];
@@ -24,7 +24,7 @@ public class MergeSort {
             b[j] = arr[m + 1 + j];
 
         int i = 0, j = 0, k = l;
-        
+
         while (i < n1 && j < n2) {
             if (a[i] < b[j]) {
                 arr[k] = a[i];
@@ -65,7 +65,7 @@ public class MergeSort {
             arr[i] = sc.nextInt();
         }
         print(arr,n);
-        mergeSort(arr,0,n-1,n);
+        mergeSort(arr,0,n-1);
         print(arr,n);
     }
 }
