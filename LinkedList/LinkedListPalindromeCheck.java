@@ -1,3 +1,4 @@
+//Checking linked list is palindrome or not.
 package Java_DSA.LinkedList;
 
 import java.util.Scanner;
