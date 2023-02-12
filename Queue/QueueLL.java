@@ -2,7 +2,6 @@ package Java_DSA.Queue;
 
 import java.util.Scanner;
 
-public class QueueLL {
     private Node front;
     private Node rear;
 
