@@ -5,36 +5,32 @@ public class ReverseWord {
         String str = "i am tejas";
         System.out.println(reverseString(str));
     }
-    public static String reverseString(String str)
+    public static String reverseString(String input)
     {
-            //Write your code here
-            // String trim_str =str.trim();
-            // String[] arr = trim_str.split(" ");a
-            // StringBuilder result = new StringBuilder();
-            //     for(int i=arr.length-1;i>=0;i--)
-            //         {
-            //             result.append(arr[i]+" ");
-            //         }
+        // Write your code here
+        // String[] arr = input.split(" ");
+        // StringBuffer str = new StringBuffer();
+        // for(int i = arr.length-1;i >= 0;i--){
+        //     str.append(arr[i]);
+        //     str.append(" ");
+        // }
+        // return str.toString();
 
-            // return result.toString();
-
-            int i = str.length()-1;
-            String ans = "";
-
-            while(i >= 0){
-                while(i>= 0 && str.charAt(i)==' ')
-                    i--;
-                int j = i;
-                if(i < 0)break;
-                while(i>=0 && str.charAt(i)!=' ')
-                    i--;
-
-                if(ans.isEmpty())
-                    ans = ans.concat(str.substring(i+1,j+1));
-                else
-                    ans = ans.concat(" "+str.substring(i+1,j+1));
+        int len= input.length();
+        int wordEnd = len ;
+        String ans = "";
+        for ( int i = len -1; i>= 0; i --){
+            char ch = input.charAt(i);
+            if(ch == ' '){
+                ans += input.substring( i+1 , wordEnd );
+                wordEnd = i;
+                ans += " ";
             }
-            return ans;
+            if( i == 0){
+                ans += input.substring( i , wordEnd);
+            }
+        }
+        return ans;
     }
 }
 

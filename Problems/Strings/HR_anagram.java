@@ -4,6 +4,9 @@ import java.util.*;
 
 public class HR_anagram {
 
+//    static boolean isAnagramSet(String a,String b){
+//
+//    }
     static boolean isAnagram(String a, String b) {
         // Complete the function
         String str1 = a;

@@ -10,9 +10,9 @@ public class PairSum {
         // List<int[]>result = new ArrayList<>();
         // for(int i = 0;i < arr.length-1;i++){
         //     int diff  = s - arr[i];
-        //     for(int j = i+1;j <arr.length;j++){
         //         if(arr[j]==diff){
-        //             int ans[] = {arr[i],arr[j]};
+        //      for(int j = i+1;j <arr.length;j++){
+        //        //            int ans[] = {arr[i],arr[j]};
         //             result.add(ans);
         //         }
         //     }
@@ -27,7 +27,28 @@ public class PairSum {
                 }
             }
         }
-
         return list;
+
+        //        Arrays.sort(arr);
+//        int i=0;
+//        int j=n-1;
+//        int count=0;
+//        while (i<j) {
+//            int currsum = arr[i]+arr[j];
+//            if (currsum < target) {
+//                i++;
+//            } else if (currsum > target) {
+//                j--;
+//            } else {
+//                count++;
+//                i++;
+//                j--;
+//            }
+//        }
+//        if(count == 0)
+//            count = -1;
+//        return count;
     }
+
 }
+
