@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f53db98a-e6f5-41d3-b935-5cd9a241f63f" name="Changes" comment="Problem Solving" />
+    <list default="true" id="f53db98a-e6f5-41d3-b935-5cd9a241f63f" name="Changes" comment="Problem Solving">
+      <change afterPath="$PROJECT_DIR$/Problems/Arrays/CommonElementIn3SortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Arrays/FindSquareNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Arrays/HighestLowestFreqElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Arrays/MaximizingTheArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Arrays/MinimizeTheDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Arrays/ProductExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Arrays/RearrangeAlternatively.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Arrays/RearrangeAlternativelyMaxAndMinElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Arrays/ThirdMaximumNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Arrays/TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/BitManipulation/FlipBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Matrix/SetMatrixZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Strings/CheckPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Strings/CountPalindromeWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Strings/CountingContinuousString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Strings/Dic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Strings/EncodeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Strings/Make1stLetterCapital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Strings/RemoveCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Strings/ReverseWordsInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Strings/Split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Strings/SubstringFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/recursion/ReachTheDestination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Arrays/PairSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Arrays/PairSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Strings/AlternateString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Strings/AlternateString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Strings/HR_anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Strings/HR_anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Strings/ReverseWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Strings/ReverseWord.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689615092635</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Problem Solving">
+      <created>1693672015883</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693672015883</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
